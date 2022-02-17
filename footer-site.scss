@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    min-height: 300px;
+    background-image: url(./images/wave\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .rows{
+        width: 100%;
+        .about-me,.contact,.social-media{
+            width: calc(50% - 40px);
+            margin: 20px;
+            .head{
+                width: 100%;
+                margin-bottom: 10px;
+                h3{
+                    color: #333;
+                    font-size: 23px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid $hover-color;        
+                }
+            }
+            .content{
+                p{
+                    text-align: justify;
+                    font-size: 16px;
+                    color: #555;
+                }
+                ul{
+                    overflow: hidden;
+                    li{
+                        list-style-type: none;
+                        margin: 10px;
+                        a{
+                            text-decoration: none;
+                            font-size: 16px;
+                            color: #555;
+                            transition: .7s;
+                            &:hover{
+                                padding-right: 10px;
+                                color: $hover-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copy-right{
+        padding-top: 20px;
+        font-size: 18px;
+        color: #555;
+    }
+}
