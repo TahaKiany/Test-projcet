@@ -1,0 +1,3 @@
+main-color:#ffffff
+hover-color:#4bcffa
+body-color:#eeeeee;
